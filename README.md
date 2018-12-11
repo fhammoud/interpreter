@@ -24,4 +24,4 @@ This project was written for Linux so running on Visual Studio may require an in
 * Open the solution file in Visual Studio
 * Configure a connection to your WSL installation
 * Run the program
-* You can change input parameters from `Debug > matrix_multiplication Properties > Debugging > Program Arguments`
+* You can change input parameters from `Debug > interpreter Properties > Debugging > Program Arguments`
