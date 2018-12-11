@@ -79,9 +79,7 @@ void skipSpace()
 
 int isKeyword(char *s)
 {
-	int i;
-
-	for (i = 1; i <= KEYWORDS; i++)
+	for (int i = 1; i <= KEYWORDS; i++)
 		if (strcmp(reserved[i], s) == 0)
 			return i;
 	return FALSE;
@@ -89,9 +87,7 @@ int isKeyword(char *s)
 
 int scan_number()
 {
-	char c;
-
-	c = getchar();
+	char c = getchar();
 	if (isdigit(c))
 	{
 		if (c == '0')
@@ -118,10 +114,7 @@ int scan_number()
 
 int scan_id_or_keyword()
 {
-	int ttype;
-	char c;
-
-	c = getchar();
+	char c = getchar();
 	if (isalpha(c))
 	{
 		while (isalnum(c))
@@ -134,7 +127,7 @@ int scan_id_or_keyword()
 			ungetc(c, stdin);
 
 		token[tokenLength] = '\0';
-		ttype = isKeyword(token);
+		int ttype = isKeyword(token);
 		if (ttype == 0)
 			ttype = ID;
 		return ttype;
@@ -150,8 +143,6 @@ void ungetToken()
 
 int getToken()
 {
-	char c;
-
 	if (activeToken)
 	{
 		activeToken = FALSE;
@@ -160,7 +151,7 @@ int getToken()
 
 	skipSpace();
 	tokenLength = 0;
-	c = getchar();
+	char c = getchar();
 
 	switch (c)
 	{
