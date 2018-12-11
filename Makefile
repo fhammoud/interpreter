@@ -6,13 +6,13 @@ LIBRARIES	:=
 
 EXECUTABLE	:= main.out
 
-all: $(BIN)/$(EXECUTABLE)
+all: $(EXECUTABLE)
 
 clean:
-	-$(RM) $(BIN)/$(EXECUTABLE)
+	-$(RM) $(EXECUTABLE)
 
 run: all
-	./$(BIN)/$(EXECUTABLE)
+	./$(EXECUTABLE)
 
-$(BIN)/$(EXECUTABLE): *.cpp
-	$(CC) $(C_FLAGS) -I*.h -L$(LIB) $^ -o $@ $(LIBRARIES)
+$(EXECUTABLE): *.c
+	$(CC) $(C_FLAGS) -I*.h $^ -o $@ $(LIBRARIES)

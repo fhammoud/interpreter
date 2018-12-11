@@ -83,7 +83,91 @@
     <ClInclude Include="compiler.h" />
     <ClInclude Include="parser.h" />
   </ItemGroup>
-  <ItemDefinitionGroup />
+  <ItemGroup>
+    <Text Include="tests\switch1.txt" />
+    <Text Include="tests\switch2.txt" />
+    <Text Include="tests\switch3.txt" />
+    <Text Include="tests\switch4.txt" />
+    <Text Include="tests\switch_while.txt" />
+    <Text Include="tests\test_assignment_basic1.txt" />
+    <Text Include="tests\test_assignment_basic2.txt" />
+    <Text Include="tests\test_assignment_variables1.txt" />
+    <Text Include="tests\test_assignment_variables2_operators.txt" />
+    <Text Include="tests\test_assignment_variables_no_init.txt" />
+    <Text Include="tests\test_control_if1.txt" />
+    <Text Include="tests\test_control_if2.txt" />
+    <Text Include="tests\test_control_if3_list.txt" />
+    <Text Include="tests\test_control_if3_list2.txt" />
+    <Text Include="tests\test_control_if4_list.txt" />
+    <Text Include="tests\test_control_ifif1.txt" />
+    <Text Include="tests\test_control_ifif2.txt" />
+    <Text Include="tests\test_control_ifif3.txt" />
+    <Text Include="tests\test_control_ifif4.txt" />
+    <Text Include="tests\test_control_i_if_f1.txt" />
+    <Text Include="tests\test_control_i_if_f2.txt" />
+    <Text Include="tests\test_control_i_if_f3.txt" />
+    <Text Include="tests\test_control_i_if_f4.txt" />
+    <Text Include="tests\test_control_i_if_f5.txt" />
+    <Text Include="tests\test_control_i_if_fif1.txt" />
+    <Text Include="tests\test_control_i_if_fif2.txt" />
+    <Text Include="tests\test_control_i_if_f_i_if_f1.txt" />
+    <Text Include="tests\test_control_i_if_f_i_if_f2.txt" />
+    <Text Include="tests\test_control_while1.txt" />
+    <Text Include="tests\test_control_while2.txt" />
+    <Text Include="tests\test_control_while3_fibonacci.txt" />
+    <Text Include="tests\test_control_while4.txt" />
+    <Text Include="tests\test_control_while5.txt" />
+    <Text Include="tests\test_control_whilewhile6.txt" />
+    <Text Include="tests\test_control_whilewhile7.txt" />
+    <Text Include="tests\test_control_whilewhile8.txt" />
+    <Text Include="tests\test_control_whilewhile9.txt" />
+    <Text Include="tests\test_control_whilewhile_if1.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+    <None Include="tests\switch1.txt.expected" />
+    <None Include="tests\switch2.txt.expected" />
+    <None Include="tests\switch3.txt.expected" />
+    <None Include="tests\switch_while.txt.expected" />
+    <None Include="tests\test_assignment_basic1.txt.expected" />
+    <None Include="tests\test_assignment_basic2.txt.expected" />
+    <None Include="tests\test_assignment_variables1.txt.expected" />
+    <None Include="tests\test_assignment_variables2_operators.txt.expected" />
+    <None Include="tests\test_assignment_variables_no_init.txt.expected" />
+    <None Include="tests\test_control_if1.txt.expected" />
+    <None Include="tests\test_control_if2.txt.expected" />
+    <None Include="tests\test_control_if3_list.txt.expected" />
+    <None Include="tests\test_control_if3_list2.txt.expected" />
+    <None Include="tests\test_control_if4_list.txt.expected" />
+    <None Include="tests\test_control_ifif1.txt.expected" />
+    <None Include="tests\test_control_ifif2.txt.expected" />
+    <None Include="tests\test_control_ifif3.txt.expected" />
+    <None Include="tests\test_control_ifif4.txt.expected" />
+    <None Include="tests\test_control_i_if_f1.txt.expected" />
+    <None Include="tests\test_control_i_if_f2.txt.expected" />
+    <None Include="tests\test_control_i_if_f3.txt.expected" />
+    <None Include="tests\test_control_i_if_f4.txt.expected" />
+    <None Include="tests\test_control_i_if_f5.txt.expected" />
+    <None Include="tests\test_control_i_if_fif1.txt.expected" />
+    <None Include="tests\test_control_i_if_fif2.txt.expected" />
+    <None Include="tests\test_control_i_if_f_i_if_f1.txt.expected" />
+    <None Include="tests\test_control_i_if_f_i_if_f2.txt.expected" />
+    <None Include="tests\test_control_while1.txt.expected" />
+    <None Include="tests\test_control_while2.txt.expected" />
+    <None Include="tests\test_control_while3_fibonacci.txt.expected" />
+    <None Include="tests\test_control_while4.txt.expected" />
+    <None Include="tests\test_control_while5.txt.expected" />
+    <None Include="tests\test_control_whilewhile6.txt.expected" />
+    <None Include="tests\test_control_whilewhile7.txt.expected" />
+    <None Include="tests\test_control_whilewhile8.txt.expected" />
+    <None Include="tests\test_control_whilewhile9.txt.expected" />
+    <None Include="tests\test_control_whilewhile_if1.txt.expected" />
+  </ItemGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <RemotePostBuildEvent>
+      <Command>cp -r tests $(RemoteOutDir)</Command>
+    </RemotePostBuildEvent>
+  </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />
 </Project>

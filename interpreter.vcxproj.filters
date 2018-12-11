@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="tests">
+      <UniqueIdentifier>{056b7551-2920-4e4b-ae6b-f6d92f53f7e3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="tests\switch_while.txt">
+      <Filter>tests</Filter>
+    </Text>
+    <Text Include="tests\switch1.txt">
+      <Filter>tests</Filter>
+    </Text>
+    <Text Include="tests\switch2.txt">
+      <Filter>tests</Filter>
+    </Text>
+    <Text Include="tests\switch3.txt">
+      <Filter>tests</Filter>
+    </Text>
+    <Text Include="tests\switch4.txt">
+      <Filter>tests</Filter>
+    </Text>
+    <Text Include="tests\test_assignment_basic1.txt">
+      <Filter>tests</Filter>
+    </Text>
+    <Text Include="tests\test_assignment_basic2.txt">
+      <Filter>tests</Filter>
+    </Text>
+    <Text Include="tests\test_assignment_variables_no_init.txt">
+      <Filter>tests</Filter>
+    </Text>
+    <Text Include="tests\test_assignment_variables1.txt">
+      <Filter>tests</Filter>
+    </Text>
+    <Text Include="tests\test_assignment_variables2_operators.txt">
+      <Filter>tests</Filter>
+    </Text>
+    <Text Include="tests\test_control_i_if_f_i_if_f1.txt">
+      <Filter>tests</Filter>
+    </Text>
+    <Text Include="tests\test_control_i_if_f_i_if_f2.txt">
+      <Filter>tests</Filter>
+    </Text>
+    <Text Include="tests\test_control_i_if_f1.txt">
+      <Filter>tests</Filter>
+    </Text>
+    <Text Include="tests\test_control_i_if_f2.txt">
+      <Filter>tests</Filter>
+    </Text>
+    <Text Include="tests\test_control_i_if_f3.txt">
+      <Filter>tests</Filter>
+    </Text>
+    <Text Include="tests\test_control_i_if_f4.txt">
+      <Filter>tests</Filter>
+    </Text>
+    <Text Include="tests\test_control_i_if_f5.txt">
+      <Filter>tests</Filter>
+    </Text>
+    <Text Include="tests\test_control_i_if_fif1.txt">
+      <Filter>tests</Filter>
+    </Text>
+    <Text Include="tests\test_control_i_if_fif2.txt">
+      <Filter>tests</Filter>
+    </Text>
+    <Text Include="tests\test_control_if1.txt">
+      <Filter>tests</Filter>
+    </Text>
+    <Text Include="tests\test_control_if2.txt">
+      <Filter>tests</Filter>
+    </Text>
+    <Text Include="tests\test_control_if3_list.txt">
+      <Filter>tests</Filter>
+    </Text>
+    <Text Include="tests\test_control_if3_list2.txt">
+      <Filter>tests</Filter>
+    </Text>
+    <Text Include="tests\test_control_if4_list.txt">
+      <Filter>tests</Filter>
+    </Text>
+    <Text Include="tests\test_control_ifif1.txt">
+      <Filter>tests</Filter>
+    </Text>
+    <Text Include="tests\test_control_ifif2.txt">
+      <Filter>tests</Filter>
+    </Text>
+    <Text Include="tests\test_control_ifif3.txt">
+      <Filter>tests</Filter>
+    </Text>
+    <Text Include="tests\test_control_ifif4.txt">
+      <Filter>tests</Filter>
+    </Text>
+    <Text Include="tests\test_control_while1.txt">
+      <Filter>tests</Filter>
+    </Text>
+    <Text Include="tests\test_control_while2.txt">
+      <Filter>tests</Filter>
+    </Text>
+    <Text Include="tests\test_control_while3_fibonacci.txt">
+      <Filter>tests</Filter>
+    </Text>
+    <Text Include="tests\test_control_while4.txt">
+      <Filter>tests</Filter>
+    </Text>
+    <Text Include="tests\test_control_while5.txt">
+      <Filter>tests</Filter>
+    </Text>
+    <Text Include="tests\test_control_whilewhile_if1.txt">
+      <Filter>tests</Filter>
+    </Text>
+    <Text Include="tests\test_control_whilewhile6.txt">
+      <Filter>tests</Filter>
+    </Text>
+    <Text Include="tests\test_control_whilewhile7.txt">
+      <Filter>tests</Filter>
+    </Text>
+    <Text Include="tests\test_control_whilewhile8.txt">
+      <Filter>tests</Filter>
+    </Text>
+    <Text Include="tests\test_control_whilewhile9.txt">
+      <Filter>tests</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tests\switch_while.txt.expected">
+      <Filter>tests</Filter>
+    </None>
+    <None Include="tests\switch1.txt.expected">
+      <Filter>tests</Filter>
+    </None>
+    <None Include="tests\switch2.txt.expected">
+      <Filter>tests</Filter>
+    </None>
+    <None Include="tests\switch3.txt.expected">
+      <Filter>tests</Filter>
+    </None>
+    <None Include="tests\test_assignment_basic1.txt.expected">
+      <Filter>tests</Filter>
+    </None>
+    <None Include="tests\test_assignment_basic2.txt.expected">
+      <Filter>tests</Filter>
+    </None>
+    <None Include="tests\test_assignment_variables_no_init.txt.expected">
+      <Filter>tests</Filter>
+    </None>
+    <None Include="tests\test_assignment_variables1.txt.expected">
+      <Filter>tests</Filter>
+    </None>
+    <None Include="tests\test_assignment_variables2_operators.txt.expected">
+      <Filter>tests</Filter>
+    </None>
+    <None Include="tests\test_control_i_if_f_i_if_f1.txt.expected">
+      <Filter>tests</Filter>
+    </None>
+    <None Include="tests\test_control_i_if_f_i_if_f2.txt.expected">
+      <Filter>tests</Filter>
+    </None>
+    <None Include="tests\test_control_i_if_f1.txt.expected">
+      <Filter>tests</Filter>
+    </None>
+    <None Include="tests\test_control_i_if_f2.txt.expected">
+      <Filter>tests</Filter>
+    </None>
+    <None Include="tests\test_control_i_if_f3.txt.expected">
+      <Filter>tests</Filter>
+    </None>
+    <None Include="tests\test_control_i_if_f4.txt.expected">
+      <Filter>tests</Filter>
+    </None>
+    <None Include="tests\test_control_i_if_f5.txt.expected">
+      <Filter>tests</Filter>
+    </None>
+    <None Include="tests\test_control_i_if_fif1.txt.expected">
+      <Filter>tests</Filter>
+    </None>
+    <None Include="tests\test_control_i_if_fif2.txt.expected">
+      <Filter>tests</Filter>
+    </None>
+    <None Include="tests\test_control_if1.txt.expected">
+      <Filter>tests</Filter>
+    </None>
+    <None Include="tests\test_control_if2.txt.expected">
+      <Filter>tests</Filter>
+    </None>
+    <None Include="tests\test_control_if3_list.txt.expected">
+      <Filter>tests</Filter>
+    </None>
+    <None Include="tests\test_control_if3_list2.txt.expected">
+      <Filter>tests</Filter>
+    </None>
+    <None Include="tests\test_control_if4_list.txt.expected">
+      <Filter>tests</Filter>
+    </None>
+    <None Include="tests\test_control_ifif1.txt.expected">
+      <Filter>tests</Filter>
+    </None>
+    <None Include="tests\test_control_ifif2.txt.expected">
+      <Filter>tests</Filter>
+    </None>
+    <None Include="tests\test_control_ifif3.txt.expected">
+      <Filter>tests</Filter>
+    </None>
+    <None Include="tests\test_control_ifif4.txt.expected">
+      <Filter>tests</Filter>
+    </None>
+    <None Include="tests\test_control_while1.txt.expected">
+      <Filter>tests</Filter>
+    </None>
+    <None Include="tests\test_control_while2.txt.expected">
+      <Filter>tests</Filter>
+    </None>
+    <None Include="tests\test_control_while3_fibonacci.txt.expected">
+      <Filter>tests</Filter>
+    </None>
+    <None Include="tests\test_control_while4.txt.expected">
+      <Filter>tests</Filter>
+    </None>
+    <None Include="tests\test_control_while5.txt.expected">
+      <Filter>tests</Filter>
+    </None>
+    <None Include="tests\test_control_whilewhile_if1.txt.expected">
+      <Filter>tests</Filter>
+    </None>
+    <None Include="tests\test_control_whilewhile6.txt.expected">
+      <Filter>tests</Filter>
+    </None>
+    <None Include="tests\test_control_whilewhile7.txt.expected">
+      <Filter>tests</Filter>
+    </None>
+    <None Include="tests\test_control_whilewhile8.txt.expected">
+      <Filter>tests</Filter>
+    </None>
+    <None Include="tests\test_control_whilewhile9.txt.expected">
+      <Filter>tests</Filter>
+    </None>
+    <None Include="README.md" />
+  </ItemGroup>
+</Project>
