@@ -1,0 +1,16 @@
+a, k;
+{
+	a = 0;
+	k = 1;
+	WHILE k < 4
+	{
+		SWITCH k
+		{
+		CASE 1: { a = a + k; print a; }
+		CASE 2: { a = a + k; print a; }
+		DEFAULT: { print a; }
+		}
+	k = k + 1;
+	}
+	print k;
+}

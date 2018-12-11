@@ -1,0 +1,25 @@
+a, k;
+{
+	a = 1;
+	k = 1;
+	WHILE k < 3
+	{
+		SWITCH k
+		{
+		CASE 1:
+			{
+				
+			}
+		CASE 2:
+			{
+			
+			}
+		DEFAULT:
+			{
+				
+			}
+		}
+		k = k + 1;
+	}
+	print k;
+}

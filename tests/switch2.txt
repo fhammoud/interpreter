@@ -1,0 +1,11 @@
+a, k;
+{
+	a = 0;
+	k = 2;
+	SWITCH k
+	{
+	CASE 1: { a = a + k; print a; }
+	CASE 2: { a = a + k; print a; }
+	DEFAULT: { print a; }
+	}
+}
